@@ -1,0 +1,22 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: memory-hog
+spec:
+  template:
+    metadata:
+      name: memory-hog
+    spec:
+      containers:
+      - name: memory-hog
+        image: busybox
+        command: ["/bin/sh", "-c", "x=a; while true; do a=$a$a; done"]
+        resources:
+          requests:
+            cpu: "50m"
+            memory: "64Mi"
+          limits:
+            cpu: "200m"
+            memory: "512Mi"
+      restartPolicy: Never
+  backoffLimit: 1
