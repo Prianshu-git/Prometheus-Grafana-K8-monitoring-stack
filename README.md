@@ -29,6 +29,11 @@
   - Memory Hog (busybox)
   - NGINX web serve
 
+## System Architecture
+<div align="center">
+<img width="500" height="1000" alt="Untitled diagram _ Mermaid Chart-2025-07-16-070955" src="https://github.com/user-attachments/assets/562b43de-9b3f-4791-a8af-f4d001f3aadc" />
+</div>
+
 ## Installation 
 Ensure this file stucture after cloning the project
 
@@ -155,3 +160,16 @@ minikube delete
 | **All Nodes & Conditions**           | `kubectl get nodes -o wide`<br>`kubectl describe node <node>`               | View allocatable resources, taints, disk pressure, etc.         |
 
 ## Support Material
+
+<img width="1296" height="741" alt="Screenshot from 2025-07-15 02-12-13" src="https://github.com/user-attachments/assets/5404f990-ac43-4057-a678-8b8e94e54a29" />
+<img width="1296" height="741" alt="Screenshot from 2025-07-15 02-13-24" src="https://github.com/user-attachments/assets/b296e789-ac95-4b01-b882-a0ab4645c70a" />
+<img width="1296" height="741" alt="Screenshot from 2025-07-15 02-23-07" src="https://github.com/user-attachments/assets/0e3083bd-356c-4021-8057-edea81b26f17" />
+<img width="1296" height="741" alt="Screenshot from 2025-07-15 02-29-01" src="https://github.com/user-attachments/assets/bfea0bff-2947-439c-ae3d-d34f73602d05" />
+<img width="1296" height="741" alt="Screenshot from 2025-07-16 14-32-58" src="https://github.com/user-attachments/assets/18fa689f-799a-4904-a691-c4bb028486d9" />
+<img width="1296" height="741" alt="Screenshot from 2025-07-16 14-35-55" src="https://github.com/user-attachments/assets/9cde3b18-28a5-400f-8b8b-a598767e43ad" />
+
+## Author
+### Prianshu-git :purple_heart:
+ [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+ [![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
+ 
